@@ -4,7 +4,7 @@ const qrcode = require('qrcode-terminal')
 const axios = require('axios')
 
 // Konfigurasi n8n Webhook
-const N8N_WEBHOOK_URL = process.env.N8N_WEBHOOK_URL || 'https://ai-agent-n8n.ibu0bd.easypanel.host/webhook-test/whatsapp'
+const N8N_WEBHOOK_URL = process.env.N8N_WEBHOOK_URL || 'https://ai-agent-n8n.ibu0bd.easypanel.host/webhook/whatsapp'
 
 // Tambahkan ini untuk mencegah loop
 let processedMessages = new Set();
